@@ -9,7 +9,7 @@ docker pull darktool/mago
 ## run
 Running without arguments to format `.php` files in current dir:
 ```bash
-docker run --rm -it -v $(pwd):/app -w /app darktool/mago format
+docker run --rm -it -v .:/app -w /app darktool/mago format
 ```
 
 ## bash alias
