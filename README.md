@@ -18,5 +18,5 @@ alias mago='docker run --rm -it -v .:/app -w /app darktool/mago format'
 ```
 
 ## credits
-- [https://github.com/carthage-software/mago/crates/formatter/src/settings.rs](crates/formatter/src/settings.rs): config options
-- [https://github.com/carthage-software/mago](mago): original project
+- [mago original project](https://github.com/carthage-software/mago.git)
+- [settings.rs: config options](https://raw.githubusercontent.com/carthage-software/mago/refs/heads/main/crates/formatter/src/settings.rs)
